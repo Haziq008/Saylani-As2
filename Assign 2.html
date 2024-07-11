@@ -5,36 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
     <style>
-        *{
-            background-color: aquamarine;
-        }
         .pages a{
             color: rgb(255, 0, 0); 
             text-decoration: none;
         }
+        div{
+            border: 1;
+        }
+        h1{
+            line-height: 1px;
+            font-size: 32px;
+        }
+        h4{
+            line-height: 8px;
+            padding: 3px;
+            
+        }
+        h5{
+            line-height: 1px;
+            max-width: 150px;
+            vertical-align: auto;
+        }
+        .box{
+            border: 3px;
+            border-color: black;
+        }
+        p{
+            max-width:600px;;
+        }
+        li{
+            max-width:550px;
+        }
+        hr{
+            border-top: 1.5px solid black;
+            max-width: 900px;
+            width:90%;
+            text-align:left;
+            margin-left:0
+        }
+        .e1{
+            color: rgb(142,142,142);
+            font-size: 15px;
+
+        }
+        .e2{
+            color: rgb(142,142,142);
+            font-size: 15px;
+        }
+        ul{
+            padding: 2%;
+            
+        }
+        /* .box{
+            padding: 2px;
+            display: flex;
+        }
+        .b{
+            width: 12%;
+            float: left;
+            padding: 2px;
+
+        } */
+        .yrt{
+            color:  rgb(64, 226, 255);
+        }
+        a{
+            font-size: larger;
+            color: rgb(0, 8, 255);
+        }
     </style>
 </head>
 <body>
-    <div class="pages">
-
-        <p><a href="./jj.html">Registration page</a></p>
-
-        <p><a href="./gal.html">Gallery Page</a></p>
-
-    </div>
+    
+    <div style="padding:16px; border: 1px solid gray;background-color: rgb(64, 226, 255); width: 700px">
     <div>
+        <h1 class="yrt">.   </h1>
+        
         <h1>Muhammad Haziq</h1>
         <h4>UNIVERSITY ACADEMICS</h4>
         <br>
-        <div>
-            <h4>EDUCATION</h4>
-            <h5>FSc|Year 2022</h5>
-            <h5>Fazaia Degree College Faisal</h5>
-        <h5>karachi, pakistan</h5>
+        <hr>
         <br>
-            <h5>SSc|Year 2020</h5>
-            <h5>Saleem Nawaz Fazaia College Masroor</h5>
+        <h4>EDUCATION</h4>
+        <div class="box">
+            <div class="b">
+            <h5 class="e1">FSc|Year 2022</h5>
+            <h5>Fazaia Degree College</h5>
+            <h5>Faisal</h5>
         <h5>karachi, pakistan</h5>
+    </div>
+
+    <div class="b">
+            <h5 class="e1">SSc|Year 2020</h5>
+            <h5>Saleem Nawaz Fazaia </h5>
+            <h5>College Masroor</h5>
+        <h5>karachi, pakistan</h5>
+    </div>
+    </div>
+        <br>
+        <hr>
         <br>
         <h4>SKILLS</h4>
         <ul>
@@ -45,16 +114,23 @@
             <li>Public Speaking</li>
         </ul>
         <br>
-        </div>
+        <hr>
+        <br>
+        
 
         <div>
+          
             <h4>CAREER OBJECTIVE</h4>
             <p>Results-driven software engineer with 2 years of experience in
              designing and developing complex software solutions.
              Skilled in c,c#,JavaScript , seeking to leverage solid development 
              skills and expertise in an innovative software company.</p>
+           
+             <br>
+             <hr>
+             <br>
              <h4>EXPERIENCE</h4>
-             <h5>Research Assistant</h5>
+             <h5 class="e2">Research Assistant</h5>
              <h5>Nov 2023-Present</h5>
              <h5>Feb 2022-Nov 2023</h5>
              <ul>
@@ -63,8 +139,8 @@
                 <li>Start your job description bullet points with active verbs rather than personal pronouns.
                      For instance, "Designed and implemented work ticketing system.</li>
              </ul>
-             <br>
-             <h5>Lab Engineer</h5>
+             
+             <h5 class="e2">Lab Engineer</h5>
              <h5>Nov 2021-Feb 2022</h5>
              <h5>Sep 2020-Nov 2021</h5>
              <ul>
@@ -76,5 +152,8 @@
         </div>
 
     </div>
+
+    <a href="./Reg Form.html">Registration Form</a><br><br>
+    <a href="./Gallery.html">Gallery</a>
 </body>
 </html>
